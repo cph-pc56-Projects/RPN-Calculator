@@ -42,5 +42,13 @@ public class PathStack<T> implements Stack<T> {
     public int size() {
         return size;
     }
+
+    @Override
+    public String toString() {
+        return data.toString();
+    }
+
+    
+    
     
 }
